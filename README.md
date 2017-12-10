@@ -1,2 +1,15 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/sidemenu) repo! :point_left:
-# tcheLinuxPoa2017
+# Tchê Linux Porto Alegre 2017
+Um aplicativo de clima criado para a demonstração do desenvolvimento de aplicativos em Ionic no evento Tchê Linux Porto Alegre 2017.
+
+## Para baixar e iniciar o aplicativo
+- `git clone https://github.com/TomCosta/tcheLinuxIonicPoa2017.git`
+- `cd tcheLinuxIonicPoa2017`
+- `npm install`
+- `ionic serve`
+
+### Para gerar um .apk
+- `ionic cordova build android`
+
+#### Para instalar o .apk no smartphone
+No seu Android, habilite instalações de fontes desconhecidas.
+Para verões iOS, verifique a documentação do Ionic Framework.
