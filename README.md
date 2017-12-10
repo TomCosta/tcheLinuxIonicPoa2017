@@ -14,7 +14,7 @@ Um aplicativo de clima criado para a demonstração do desenvolvimento de aplica
 - `cd tcheLinuxIonicPoa2017`
 - `npm install`
 - `ionic serve`
-*Faça o seu cadastro na openweather.org para obter a sua api key.*
+###### *Faça o seu cadastro na [openweather.org](http://openweathermap.org/) para obter a sua api key.*
 
 ### Para gerar um .apk (app Android)
 - `ionic cordova build android`
