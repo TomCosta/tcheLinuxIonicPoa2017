@@ -10,7 +10,7 @@ import 'rxjs';
 
 @Injectable()
 export class WeatherProvider {
-  apiKey = 'e659687d5c33ddd16b00b2d17ba201e4';
+  apiKey = 'Faça o cadastro na openweather.org e insira aqui a sua api key';
   openUrl: any;
 
   constructor(
