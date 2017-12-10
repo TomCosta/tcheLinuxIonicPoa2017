@@ -1,5 +1,5 @@
 # Tchê Linux Porto Alegre 2017
-Um aplicativo de clima criado para a demonstração do desenvolvimento de aplicativos em Ionic no evento Tchê Linux Porto Alegre 2017.
+Um aplicativo de clima criado para a demonstração do desenvolvimento de aplicativos em Ionic no evento Tchê Linux Porto Alegre dez/2017.
 
 ![tela climatica](https://github.com/TomCosta/tcheLinuxIonicPoa2017/blob/master/tela-mobile.png)
 
