@@ -1,0 +1,27 @@
+$font-path: "../assets/fonts";
+$app-direction: ltr;
+
+@import "ionic.globals";
+
+$colors: (
+  primary:    #00b300,
+  secondary:  #008000,
+  danger:     #f53d3d,
+  light:      #ffffff,
+  dark:       #222
+);
+
+// Todas as Toolbar
+$toolbar-md-background: color($colors, secondary);
+
+// Detalhes das listas
+$list-md-background-color:color($colors, secondary);
+$list-md-text-color:color($colors, light);
+
+// Todos Inputs e text Label
+$text-input-placeholder-color:color($colors, light);
+
+@import "ionic.theme.default";
+@import "ionic.ionicons";
+@import "roboto";
+@import "noto-sans";

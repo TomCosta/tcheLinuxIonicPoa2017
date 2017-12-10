@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Configuração</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="fundao" padding>
+    <ion-grid>
+      <ion-row>
+        <ion-col width-100>
+          <ion-list>
+            <form (ngSubmit)="saveConfig(location)" novalidate>
+              <ion-item>
+                <ion-label fixed>
+                  Cidade
+                </ion-label>
+                <ion-input placeholder="Cidade" [(ngModel)]="location.city" name="city" type="text"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label fixed>
+                  País
+                </ion-label>
+                <ion-input placeholder="País" [(ngModel)]="location.ctry" name="ctry" type="text" maxlength="2"></ion-input>
+              </ion-item>
+              <p></p>
+              <button ion-button type="submit" color="primary" block>Adicionar</button>
+            </form>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+  
